@@ -1,0 +1,13 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# NOTE: add filetypes as needed, this works for now
+[*.{tsx,js,ts}]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
